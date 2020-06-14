@@ -1,0 +1,16 @@
+# Run and check the output
+
+is_old = False
+is_licenced = True
+
+if is_old :
+    print("You're too old to drive")
+
+elif is_licenced :
+    print("You can drive")
+
+else :
+    print("you're not old to drive but you don't have license")
+    
+    
+    
