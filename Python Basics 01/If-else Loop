@@ -1,4 +1,7 @@
-# Run and check the output
+# Run and check the output 
+
+
+EXAMPLE - 1
 
 is_old = False
 is_licenced = True
@@ -11,6 +14,23 @@ elif is_licenced :
 
 else :
     print("you're not old to drive but you don't have license")
+    
+    
+    
+  ------------------------------------------------------------------------------------------------------------
+  
+  EXAMPLE - 2
+  
+  
+is_18_Plus = True
+is_licensed = True
+
+if is_18_Plus and is_licensed :
+    print("You're can drive")
+
+
+else :
+    print("you can't drive")
     
     
     
