@@ -1,0 +1,143 @@
+EXAMPLES :
+-----------------------------------------------------------------------------------------------------------------
+
+for item in (1,2,3,4,5) :
+    print(item)
+    
+----------------------------------------------
+
+for item in ['a','b','c','d','e'] :
+    print(item)
+    
+----------------------------------------------
+
+ for item in (1,2,3,4,5):
+    for x in ('a','b','c'):
+        print(item,x)
+        
+----------------------------------------------
+
+ITERATION USINF FOR LOOP IN DICTIONARY 
+
+user = {
+    'name' : 'Shubhi',
+    'age' : 23,
+    'can_swim' : False
+}
+
+
+for item in user.items():  # Will print the items in dictionary
+    print(item) 
+    
+    
+for key,value in user.items(): 
+    print(key, value)
+    
+
+for item in user.values():  # Will print the values in dictionary
+    print(item)
+
+for item in user.keys():   # key is a method here - Will print the keys in dictionary
+     print(item) 
+
+O/P :
+
+
+('name', 'Shubhi')
+('age', 23)
+('can_swim', False)       # It printed dictionary in the form of a tuple 
+
+name Shubhi
+age 23
+can_swim False            # not in a form of tuple 
+
+Shubhi
+23
+False
+
+name
+age
+can_swim
+
+----------------------------------------------
+
+Make a counter to find a sum of first 10 numbers in the list
+
+given : my_list = [1,2,3,4,5,6,7,8,9,10]
+
+sol :
+
+my_list = [1,2,3,4,5,6,7,8,9,10]
+
+counter = 0
+
+for item in my_list:
+    counter = counter+item
+print(counter)
+
+O/P : 55
+
+
+----------------------------------------------
+
+ITERATION :
+
+print(range(1,10))
+print("____________________")
+
+for number in range(1,5):
+    print('Thankyou')
+print("____________________")
+
+for n in range(1,6,1):
+    print(n)
+
+
+print("____________________")
+
+for n in range(6,0,-1):
+    print(n)
+  
+print("____________________")
+
+for n in range (10,0,-2):
+    print(n)
+    
+O/P :
+
+range(1, 10)
+____________________
+Thankyou
+Thankyou
+Thankyou
+Thankyou
+____________________
+1
+2
+3
+4
+5
+____________________
+6
+5
+4
+3
+2
+1
+____________________
+10
+8
+6
+4
+2
+
+
+--------------------------------------------------------------------------------------------------
+
+
+
+    
+   
+
+   
+    
