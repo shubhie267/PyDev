@@ -32,5 +32,27 @@ if is_18_Plus and is_licensed :
 else :
     print("you can't drive")
     
+  --------------------------------------------------------------------------------------------------------------
+  
+  
+  EXAMPLE - 3
+  
+  is_magician = False
+is_expert = True
+
+if is_magician :
+    if is_expert :
+        print("You are a master magician")
+
+    else:
+         print("Atleast you're getting there")
+
+else :
+    print("you need powers")
+    
+  ---------------------------------------------------------------------------------------------------------------
+  
+  
+    
     
     
