@@ -3,7 +3,7 @@ while i<6:
     print(i)
     i = i+1
     if i==3:
-        break
+        break             # With the break statement we can stop the loop even if the while condition is true.
         
 print('________________')
 
@@ -12,7 +12,7 @@ i = 0
 while i<6:
     i=i+1
     if i==3:
-        continue
+        continue         # With the continue statement we can stop the current iteration, and continue with the next.
     print(i)
     
     
