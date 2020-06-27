@@ -1,0 +1,11 @@
+def say_hello(name):
+    print(f"hello {name} , You are most welcome here")
+
+say_hello('Jack')
+
+
+
+---------------------------------------------OUTPUT------------------------------------------------
+
+
+hello Jack , You are most welcome here
