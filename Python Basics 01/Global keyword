@@ -1,0 +1,57 @@
+print("__________________________________________")
+
+total = 0  #Variable 
+
+def sum():
+    global total    #Making that variable global so that it can be used inside a function 
+    total += 1
+    return total
+    
+sum()
+sum()
+print(sum())
+
+____________________________________________________________________________
+
+
+SUPPOSE IF WE DON'T USE GLOBAL KEYWORD ---------IT WILL SHOW AN ERROR
+ 
+print("__________________________________________")
+
+total = 0
+
+def sum():
+    """ global total """
+    total += 1
+    
+    return total
+
+sum()
+sum()
+print(sum())
+
+________________________________-INSTEAD THAT WE CAN DO THE FOLLOWING_________________________________-
+
+print("__________________________________________")
+
+total = 0
+
+def sum(total):
+    total += 1
+    return total
+
+print(sum(sum(sum(total))))
+
+
+
+-----------------------------------------------------------------OUTPUT-------------------------------------------------------------
+
+__________________________________________
+3
+__________________________________________
+UnboundLocalError: local variable 'total' referenced before assignment
+
+__________________________________________
+3
+
+
