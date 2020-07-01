@@ -16,10 +16,24 @@ print(even(2))
 
 print("__________________________________________")
 
-def super_func(*args):  #########  ** THIS ADDITION OF * IN FRONT OF ARGS WILL LET SUPER_FUNC ADD ANY NUMBER OF PARAMETERS **
+
+
+*args and **kwargs :- (these are just variables but as a python community standard we name them as args and kwargs(keyword arguments))
+
+def super_func(*args):  #########  THIS ADDITION OF * IN FRONT OF ARGS WILL LET SUPER_FUNC ADD ANY NUMBER OF PARAMETERS 
     return sum(args)
 
 print(super_func(1,2,3))
+
+print("__________________________________________")
+
+def super_func(*args, **kwargs):
+    total = 0
+    for item in kwargs.values():
+        total = total+item
+    return sum(args) + total
+
+print(super_func(1,2,3, num1=5, num2=2))  
 
 
 
@@ -32,3 +46,5 @@ __________________________________________
 True
 __________________________________________
 6
+__________________________________________
+13
