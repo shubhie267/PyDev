@@ -3,9 +3,32 @@ def say_hello(name):
 
 say_hello('Jack')
 
+________________________________________________________________________________-
+
+def even(num):                 / To check if number is even or odd
+    if num%2 == 0:
+        return True
+    else:
+        return False
+        
+print(even(2))
+
+
+print("__________________________________________")
+
+def super_func(*args):  #########  ** THIS ADDITION OF * IN FRONT OF ARGS WILL LET SUPER_FUNC ADD ANY NUMBER OF PARAMETERS **
+    return sum(args)
+
+print(super_func(1,2,3))
+
+
 
 
 ---------------------------------------------OUTPUT------------------------------------------------
 
 
 hello Jack , You are most welcome here
+__________________________________________
+True
+__________________________________________
+6
